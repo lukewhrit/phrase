@@ -33,20 +33,20 @@ import (
 type Dictionary []string
 type Phrase []string
 
-// Generate populates an array of length `words` with random words from `d`
+// Generate populates an array of length `words` with random words from the provided dictionary and returns its
 func (d Dictionary) Generate(words int) Phrase {
 	rand.Seed(time.Now().UnixNano())
 
-	phrase := Phrase{}
+	phrase := make(Phrase, words)
 
-	for i := 0; i < words; i++ {
-		number := rand.Intn(words) + words
-		phrase = append(phrase, d[number])
+	for i := range phrase {
+		phrase[i] = d[rand.Intn(len(d))]
 	}
 
 	return phrase
 }
 
+// Converts a generated Phrase into a string, delimited with hyphens
 func (p Phrase) String() string {
 	return strings.Join(p, "-")
 }
