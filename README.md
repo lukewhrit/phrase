@@ -1,5 +1,7 @@
 # phrase
 
+[![Go Reference](https://pkg.go.dev/badge/github.com%2Flukewhrit%2Fphrase.svg)](https://pkg.go.dev/github.com%2Flukewhrit%2Fphrase) [![Go Report Card](https://goreportcard.com/badge/github.com/lukewhrit/phrase)](https://goreportcard.com/report/github.com/lukewhrit/phrase)
+
 phrase is a simple library that generates [passphrases](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) using pure Go and a customizable dictionary.
 
 **The default dictionary that ships with phrase is not large; some 2300 words. This is probably not a big enough data set for secure passwords. Because of that, you should consider implementing a [custom dictionary](#dictionary) before using this for passwords.**
