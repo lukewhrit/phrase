@@ -1,3 +1,3 @@
 module github.com/lukewhrit/phrase
 
-go 1.19
+go 1.20

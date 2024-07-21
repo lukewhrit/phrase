@@ -27,16 +27,13 @@ package phrase
 import (
 	"math/rand"
 	"strings"
-	"time"
 )
 
 type Dictionary []string
 type Phrase []string
 
-// Generate populates an array of length `words` with random words from the provided dictionary and returns its
+// Generate a new Phrase with a given number of words
 func (d Dictionary) Generate(words int) Phrase {
-	rand.Seed(time.Now().UnixNano())
-
 	phrase := make(Phrase, words)
 
 	for i := range phrase {
@@ -46,7 +43,7 @@ func (d Dictionary) Generate(words int) Phrase {
 	return phrase
 }
 
-// Converts a generated Phrase into a string, delimited with hyphens
+// Convert a Phrase to a "-"-delineated string
 func (p Phrase) String() string {
 	return strings.Join(p, "-")
 }
