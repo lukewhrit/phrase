@@ -1,6 +1,6 @@
 # phrase
 
-[![Go Reference](https://pkg.go.dev/badge/github.com%2Flukewhrit%2Fphrase.svg)](https://pkg.go.dev/github.com%2Flukewhrit%2Fphrase) [![Go Report Card](https://goreportcard.com/badge/github.com/lukewhrit/phrase)](https://goreportcard.com/report/github.com/lukewhrit/phrase)
+[![Go Reference](https://pkg.go.dev/badge/github.com%2Flukewhrit%2Fphrase.svg)](https://pkg.go.dev/github.com%2Flukewhrit%2Fphrase) [![Go Report Card](https://goreportcard.com/badge/github.com/lukewhrit/phrase)](https://goreportcard.com/report/github.com/lukewhrit/phrase) [![Tests and Coverage](https://github.com/lukewhrit/phrase/actions/workflows/test.yml/badge.svg)](https://github.com/lukewhrit/phrase/actions/workflows/test.yml) [![codecov](https://codecov.io/github/lukewhrit/phrase/graph/badge.svg?token=FPGU1UW41M)](https://codecov.io/github/lukewhrit/phrase)
 
 phrase is a simple library that generates [passphrases](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) using pure Go and a customizable dictionary.
 
