@@ -54,6 +54,6 @@ func main() {
 
 ## Credits and License
 
-MIT License (c) 2022 Luke Whritenour. See [`LICENSE`](LICENSE).
+MIT License (c) 2022-2024 Luke Whritenour. See [`LICENSE`](LICENSE).
 
 The world list is graciously taken from [correcthorse by Nicolás Bevacqua](https://github.com/bevacqua/correcthorse), also under the MIT license.
